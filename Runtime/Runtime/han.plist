@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>color</key>
+		<string>blue</string>
+		<key>content</key>
+		<string>更进一步地，实际工作中我们希望通过排版文件来设置需要排版的文字</string>
+		<key>size</key>
+		<string>16</string>
+		<key>type</key>
+		<string>txt</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>red</string>
+		<key>content</key>
+		<string>内容、颜色、字体</string>
+		<key>size</key>
+		<string>22</string>
+		<key>type</key>
+		<string>txt</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>black</string>
+		<key>content</key>
+		<string>大小等信息/n</string>
+		<key>size</key>
+		<string>16</string>
+		<key>type</key>
+		<string>txt</string>
+	</dict>
+	<dict>
+		<key>color</key>
+		<string>default</string>
+		<key>content</key>
+		<string>我在开发猿题库时。自己定义了一个基于UBB的排版模板，但是实现该排版文件的解析器要花费大量的篇幅</string>
+		<key>size</key>
+		<string>16</string>
+		<key>type</key>
+		<string>txt</string>
+	</dict>
+</array>
+</plist>
