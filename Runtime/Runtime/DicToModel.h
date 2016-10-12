@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/** 运行时字典转模型*/
 @interface NSObject(DicToModel)
 +(instancetype)createModelWithDict:(NSDictionary *)dict;
 @end

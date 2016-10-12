@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		736B52DE1DADE63F00A6ADB7 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B52DD1DADE63F00A6ADB7 /* UIImage+Image.m */; };
+		736B52E41DAE12C600A6ADB7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B52E31DAE12C600A6ADB7 /* Person.m */; };
+		736B52E71DAE222200A6ADB7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B52E61DAE222200A6ADB7 /* Dog.m */; };
+		736B52EA1DAE2D8B00A6ADB7 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B52E91DAE2D8B00A6ADB7 /* NSObject+Property.m */; };
 		7370026F1DAB2D6D0064FA27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7370026E1DAB2D6D0064FA27 /* main.m */; };
 		737002721DAB2D6D0064FA27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737002711DAB2D6D0064FA27 /* AppDelegate.m */; };
 		737002751DAB2D6D0064FA27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737002741DAB2D6D0064FA27 /* ViewController.m */; };
@@ -16,9 +20,18 @@
 		73CAA5A71DAB2DC8008D632D /* DicToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CAA5A61DAB2DC8008D632D /* DicToModel.m */; };
 		73CAA5A91DAB33BA008D632D /* han.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73CAA5A81DAB33BA008D632D /* han.plist */; };
 		73CAA5AC1DAB343E008D632D /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CAA5AB1DAB343E008D632D /* Status.m */; };
+		73CAA5B21DAB41B5008D632D /* UIControl+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CAA5B11DAB41B5008D632D /* UIControl+Custom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		736B52DC1DADE63F00A6ADB7 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		736B52DD1DADE63F00A6ADB7 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		736B52E21DAE12C600A6ADB7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		736B52E31DAE12C600A6ADB7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		736B52E51DAE222200A6ADB7 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		736B52E61DAE222200A6ADB7 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		736B52E81DAE2D8B00A6ADB7 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		736B52E91DAE2D8B00A6ADB7 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		7370026A1DAB2D6D0064FA27 /* Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7370026E1DAB2D6D0064FA27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		737002701DAB2D6D0064FA27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +47,8 @@
 		73CAA5A81DAB33BA008D632D /* han.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = han.plist; sourceTree = "<group>"; };
 		73CAA5AA1DAB343E008D632D /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		73CAA5AB1DAB343E008D632D /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		73CAA5B01DAB41B5008D632D /* UIControl+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Custom.h"; sourceTree = "<group>"; };
+		73CAA5B11DAB41B5008D632D /* UIControl+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Custom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +89,16 @@
 				73CAA5A61DAB2DC8008D632D /* DicToModel.m */,
 				73CAA5AA1DAB343E008D632D /* Status.h */,
 				73CAA5AB1DAB343E008D632D /* Status.m */,
+				73CAA5B01DAB41B5008D632D /* UIControl+Custom.h */,
+				73CAA5B11DAB41B5008D632D /* UIControl+Custom.m */,
+				736B52DC1DADE63F00A6ADB7 /* UIImage+Image.h */,
+				736B52DD1DADE63F00A6ADB7 /* UIImage+Image.m */,
+				736B52E21DAE12C600A6ADB7 /* Person.h */,
+				736B52E31DAE12C600A6ADB7 /* Person.m */,
+				736B52E51DAE222200A6ADB7 /* Dog.h */,
+				736B52E61DAE222200A6ADB7 /* Dog.m */,
+				736B52E81DAE2D8B00A6ADB7 /* NSObject+Property.h */,
+				736B52E91DAE2D8B00A6ADB7 /* NSObject+Property.m */,
 				73CAA5A81DAB33BA008D632D /* han.plist */,
 				737002761DAB2D6D0064FA27 /* Main.storyboard */,
 				737002791DAB2D6D0064FA27 /* Assets.xcassets */,
@@ -164,10 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736B52E71DAE222200A6ADB7 /* Dog.m in Sources */,
 				737002751DAB2D6D0064FA27 /* ViewController.m in Sources */,
 				737002721DAB2D6D0064FA27 /* AppDelegate.m in Sources */,
+				736B52E41DAE12C600A6ADB7 /* Person.m in Sources */,
 				7370026F1DAB2D6D0064FA27 /* main.m in Sources */,
 				73CAA5AC1DAB343E008D632D /* Status.m in Sources */,
+				736B52DE1DADE63F00A6ADB7 /* UIImage+Image.m in Sources */,
+				73CAA5B21DAB41B5008D632D /* UIControl+Custom.m in Sources */,
+				736B52EA1DAE2D8B00A6ADB7 /* NSObject+Property.m in Sources */,
 				73CAA5A71DAB2DC8008D632D /* DicToModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
